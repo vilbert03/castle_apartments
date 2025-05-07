@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+**__pycache__/
 *.py[cod]
 *.so
 
@@ -15,6 +16,7 @@ env/
 
 # Log files
 *.log
+*.pyc
 
 # System-specific
 Thumbs.db
