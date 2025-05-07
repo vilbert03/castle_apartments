@@ -5,74 +5,141 @@ apartments = [
     {
         'id': 1,
         'name': 'fagragrund 12',
+        'city': 'Reykjavík',
+        'postal_code': 108,
+        'description': 'bla bla bla',
         'type': 'house',
         'price': '45.000.000',
+        'listing_date': '2019-09-22',
         'on_sale': True,
         'seller_id': 1,
+        'nr_rooms': 2,
+        'nr_square_meters': 100,
+        #sellerInformation
+        'seller_name': 'Davíð',
+        #image of the seller
+        #a link to sellers profile page
         'image': 'https://c.arvakur.is/m2/nyicJBddS9X0JV9NyL0M3vkONhc=/x867/smart/fs-pool/e9/e9df53fc64afcdfc950828443ed79095fb1cee3c.jpg'
     },
     {
         'id': 2,
-        'name': 'hagarland 48',
+        'name': 'fagragrund 12',
+        'city': 'Reykjavík',
+        'postal_code': 108,
+        'description': 'bla bla bla',
         'type': 'house',
-        'price': '58.000.000',
+        'price': '45.000.000',
+        'listing_date': '2019-09-22',
         'on_sale': True,
         'seller_id': 1,
-        'rooms': 8,
-        'image': 'https://c.arvakur.is/m2/H5NHUjuJHp5RGZln6cWPvwztwfU=/x867/smart/fs-pool/1e/1e84a28e179fdfab276e5fa8067133809e8a488f.jpg'
+        'nr_rooms': 2,
+        'nr_square_meters': 100,
+        #sellerInformation
+        'seller_name': 'Davíð',
+        #image of the seller
+        #a link to sellers profile page
+        'image': 'https://c.arvakur.is/m2/nyicJBddS9X0JV9NyL0M3vkONhc=/x867/smart/fs-pool/e9/e9df53fc64afcdfc950828443ed79095fb1cee3c.jpg'
     },
 
     {
         'id': 3,
-        'name': 'hagarland 48',
+        'name': 'fagragrund 12',
+        'city': 'Reykjavík',
+        'postal_code': 108,
+        'description': 'bla bla bla',
         'type': 'house',
-        'price': '58.000.000',
+        'price': '45.000.000',
+        'listing_date': '2019-09-22',
         'on_sale': True,
         'seller_id': 1,
-        'rooms': 8,
-        'image': 'https://c.arvakur.is/m2/H5NHUjuJHp5RGZln6cWPvwztwfU=/x867/smart/fs-pool/1e/1e84a28e179fdfab276e5fa8067133809e8a488f.jpg'
+        'nr_rooms': 2,
+        'nr_square_meters': 100,
+        #sellerInformation
+        'seller_name': 'Davíð',
+        #image of the seller
+        #a link to sellers profile page
+        'image': 'https://c.arvakur.is/m2/nyicJBddS9X0JV9NyL0M3vkONhc=/x867/smart/fs-pool/e9/e9df53fc64afcdfc950828443ed79095fb1cee3c.jpg'
     },
 
     {
         'id': 4,
-        'name': 'hagarland 48',
+        'name': 'fagragrund 12',
+        'city': 'Reykjavík',
+        'postal_code': 108,
+        'description': 'bla bla bla',
         'type': 'house',
-        'price': '58.000.000',
+        'price': '45.000.000',
+        'listing_date': '2019-09-22',
         'on_sale': True,
         'seller_id': 1,
-        'rooms': 8,
-        'image': 'https://c.arvakur.is/m2/H5NHUjuJHp5RGZln6cWPvwztwfU=/x867/smart/fs-pool/1e/1e84a28e179fdfab276e5fa8067133809e8a488f.jpg'
+        'nr_rooms': 2,
+        'nr_square_meters': 100,
+        #sellerInformation
+        'seller_name': 'Davíð',
+        #image of the seller
+        #a link to sellers profile page
+        'image': 'https://c.arvakur.is/m2/nyicJBddS9X0JV9NyL0M3vkONhc=/x867/smart/fs-pool/e9/e9df53fc64afcdfc950828443ed79095fb1cee3c.jpg'
     },
+
     {
         'id': 5,
-        'name': 'hagarland 48',
+        'name': 'fagragrund 12',
+        'city': 'Reykjavík',
+        'postal_code': 108,
+        'description': 'bla bla bla',
         'type': 'house',
-        'price': '58.000.000',
+        'price': '45.000.000',
+        'listing_date': '2019-09-22',
         'on_sale': True,
         'seller_id': 1,
-        'rooms': 8,
-        'image': 'https://c.arvakur.is/m2/H5NHUjuJHp5RGZln6cWPvwztwfU=/x867/smart/fs-pool/1e/1e84a28e179fdfab276e5fa8067133809e8a488f.jpg'
+        'nr_rooms': 2,
+        'nr_square_meters': 100,
+        #sellerInformation
+        'seller_name': 'Davíð',
+        #image of the seller
+        #a link to sellers profile page
+        'image': 'https://c.arvakur.is/m2/nyicJBddS9X0JV9NyL0M3vkONhc=/x867/smart/fs-pool/e9/e9df53fc64afcdfc950828443ed79095fb1cee3c.jpg'
     },
+
     {
         'id': 6,
-        'name': 'hagarland 48',
+        'name': 'fagragrund 12',
+        'city': 'Reykjavík',
+        'postal_code': 108,
+        'description': 'bla bla bla',
         'type': 'house',
-        'price': '58.000.000',
+        'price': '45.000.000',
+        'listing_date': '2019-09-22',
         'on_sale': True,
         'seller_id': 1,
-        'rooms': 8,
-        'image': 'https://c.arvakur.is/m2/H5NHUjuJHp5RGZln6cWPvwztwfU=/x867/smart/fs-pool/1e/1e84a28e179fdfab276e5fa8067133809e8a488f.jpg'
+        'nr_rooms': 2,
+        'nr_square_meters': 100,
+        #sellerInformation
+        'seller_name': 'Davíð',
+        #image of the seller
+        #a link to sellers profile page
+        'image': 'https://c.arvakur.is/m2/nyicJBddS9X0JV9NyL0M3vkONhc=/x867/smart/fs-pool/e9/e9df53fc64afcdfc950828443ed79095fb1cee3c.jpg'
     },
+
     {
         'id': 7,
-        'name': 'hagarland 48',
+        'name': 'fagragrund 12',
+        'city': 'Reykjavík',
+        'postal_code': 108,
+        'description': 'bla bla bla',
         'type': 'house',
-        'price': '58.000.000',
+        'price': '45.000.000',
+        'listing_date': '2019-09-22',
         'on_sale': True,
         'seller_id': 1,
-        'rooms': 8,
-        'image': 'https://c.arvakur.is/m2/H5NHUjuJHp5RGZln6cWPvwztwfU=/x867/smart/fs-pool/1e/1e84a28e179fdfab276e5fa8067133809e8a488f.jpg'
-    }
+        'nr_rooms': 2,
+        'nr_square_meters': 100,
+        #sellerInformation
+        'seller_name': 'Davíð',
+        #image of the seller
+        #a link to sellers profile page
+        'image': 'https://c.arvakur.is/m2/nyicJBddS9X0JV9NyL0M3vkONhc=/x867/smart/fs-pool/e9/e9df53fc64afcdfc950828443ed79095fb1cee3c.jpg'
+    },
 ]
 
 
