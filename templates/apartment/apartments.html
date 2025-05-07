@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apartments</title>
+    <style>
+        .apartment-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px; 
+        }
+        .apartment-item {
+            padding: 10px;
+            background-color: rgba(155, 155, 155, .5);
+        }
+        .apartment-item h3 {
+
+        }
+        .apartment-item .apartment-image {
+            height: 150px;
+            width: 150px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .apartment-item .apartment-type {
+            border-radius: 20px;
+            padding: 10px;
+            font-size: .7em;
+            background-color: #4ac1f7;
+            max-width: 100px;
+            text-align: center;
+        }
+        .apartment-item .apartment-price {
+            border-radius: 20px;
+            padding: 10px;
+            font-size: .7em;
+            background-color: #6f94c6;
+            max-width: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="apartment-container">
+        {% for apartment in apartments %}
+            <div class="apartment-item">
+                <h3>{{apartment.name}}<h3>
+                <div class="apartment-image" style="background-image: url({{ apartment.image }})"></div>
+                <div class="apartment-type">{{ apartment.type }}</div>
+                    <div class="apartment-price">{{ apartment.price }}</div>
+                <div class="badge">{{ apartment.type }}</div>
+                {% if apartment.on_sale == true %}
+                    <div class="badge red">ON SALE!</div>
+                {% endif %}
+                    <a href="{% url "apartment_by_id" id=apartment.id%}">More details</a>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
