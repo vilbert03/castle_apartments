@@ -18,3 +18,36 @@ apartments = [
         'image': 'https://c.arvakur.is/m2/H5NHUjuJHp5RGZln6cWPvwztwfU=/x867/smart/fs-pool/1e/1e84a28e179fdfab276e5fa8067133809e8a488f.jpg'
     }
 ]
+
+sellers = [
+    {
+        'id': 1,
+        'name': 'asgeir steini',
+        'type_of_seller': 'individual',
+        'logo': 'https://www.canva.com/logos/templates/real-estate/',
+        'cover_image': 'https://unsplash.com/s/photos/profile',
+    },
+    {
+        'id': 2,
+        'name': 'katrin klara',
+        'type_of_seller': 'individual',
+        'logo': 'https://www.canva.com/logos/templates/real-estate/',
+        'cover_image': 'https://unsplash.com/s/photos/profile',
+    },
+    {
+        'id': 3,
+        'name': 'hildur afra',
+        'type_of_seller': 'individual',
+        'logo': 'https://www.canva.com/logos/templates/real-estate/',
+        'cover_image': 'https://unsplash.com/s/photos/profile',
+    },
+    {
+        'id': 4,
+        'name': 'haldor all',
+        'type_of_seller': 'individual',
+        'logo': 'https://www.canva.com/logos/templates/real-estate/',
+        'cover_image': 'https://unsplash.com/s/photos/profile',
+    },
+]
+
+

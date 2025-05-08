@@ -18,8 +18,11 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    # http: //localhost:9000/
-    path('', include('apartment.urls')),
+    # http: //localhost:8000/apartment
+    path('apartment/', include('apartment.urls')),
+    # http: //localhost:8000/seller
+    path('seller/', include('seller.urls')),
+
     # http://localhost:5000/admin
     path('admin/', admin.site.urls),
 ]

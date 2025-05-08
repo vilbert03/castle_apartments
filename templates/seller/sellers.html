@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seller</title>
+    <style>
+        .seller-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px; 
+        }
+        .seller-item {
+            padding: 10px;
+            background-color: rgba(155, 155, 155, .5);
+            border-radius: 10px;
+        }
+        .seller-item h3 {
+            margin: 0;
+
+        }
+        .seller-logo,
+        .seller-cover {
+            height: 150px;
+            width: 150px;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 10px;
+        }
+        
+        .type_of_seller,
+        .seller-age {
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 0.7em;
+            max-width: 100px;
+            text-align: center;
+            background-color: #6f94c6;
+        }
+        .type_of_seller {
+            background-color: #4ac1f7;
+        }
+        .seller-age {
+            background-color: #6f94c6;
+        }
+        
+    </style>    
+</head>
+<body>
+    <div class="seller-container">
+        {% for seller in sellers %}
+        <div class="seller-item">
+            <h3>{{ seller.name }}</h3>
+                <div class="seller-logo" style="background-image: url({{ seller.logo }})"></div>
+                <div class="type_of_seller">{{ seller.type_of_seller }}</div>
+                {% if seller.age %}
+                    <div class="seller-age">{{ seller.age }}</div>
+                {% endif %}
+                <div class="seller-cover" style="background-image: url({{ seller.cover_image }})"></div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
